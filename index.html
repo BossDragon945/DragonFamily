@@ -288,7 +288,10 @@
       <nav class="navbar navbar-expand-md fixed-top bg-white shadow">
         <div class="container-fluid px-3 px-md-4">
           <a class="navbar-brand" href="#">
-            <img src="img/PC/banner-pc.png" alt="胖胖龍爹地的Dragon家族" height="48">
+            <picture>
+              <source type="image/webp" srcset="img/PC/banner-pc.webp">
+              <img src="img/PC/banner-pc.png" alt="胖胖龍爹地的Dragon家族" height="48">
+            </picture>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
             aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
@@ -334,10 +337,18 @@
   <main>
     <div class="py-5 row justify-content-center">
       <div class="col-8">
-        <img src="img/PC/godfather.png" width="100%" height="100%">
+        <picture>
+          <source media="(max-width: 767.98px)" type="image/webp" srcset="img/Mobile/godfather.webp">
+          <source type="image/webp" srcset="img/PC/godfather.webp">
+          <img src="img/PC/godfather.png" width="100%" height="100%" alt="胖胖龍爹地與家族成員合影">
+        </picture>
       </div>
       <div class="col-8">
-        <img src="img/PC/banner-pc.png" width="100%">
+        <picture>
+          <source media="(max-width: 767.98px)" type="image/webp" srcset="img/Mobile/banner-mb.webp">
+          <source type="image/webp" srcset="img/PC/banner-pc.webp">
+          <img src="img/PC/banner-pc.png" width="100%" alt="胖胖龍爹地的Dragon家族">
+        </picture>
       </div>
       <hr>
 
